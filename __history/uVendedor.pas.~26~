@@ -1,0 +1,44 @@
+unit uVendedor;
+
+interface
+
+uses System.SysUtils, uPessoa;
+
+type
+
+  TVendedor = class(TPessoa)
+
+Private
+
+  FComissao: Integer;
+
+  function getComissao: integer;
+  procedure setComissao(Value: integer);
+
+Public
+
+  property comissao: string read getComissao write setComissao;
+
+  function CalculaSal: Double;
+
+end;
+
+implementation
+
+function TVendedor.getComissao: string;
+begin
+  Result := FComissao;
+end;
+
+procedure TVendedor.setComissao(Value: string);
+begin
+  FComissao := Value;
+end;
+
+
+function TVendedor.CalculaSal: Double;
+begin
+  Result := StrToFloat(salario) + (15/100 * StrToFloat(salario));
+end;
+
+end.

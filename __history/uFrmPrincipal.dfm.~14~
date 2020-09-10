@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 296
+  ClientWidth = 564
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 344
+    Top = 21
+    Width = 128
+    Height = 13
+    Caption = 'Dispn'#237'vel at'#233' C'#243'digo n.100'
+  end
+  object BtnCadastrar: TButton
+    Left = 328
+    Top = 224
+    Width = 169
+    Height = 41
+    Caption = 'Cadastrar'
+    TabOrder = 0
+    OnClick = BtnCadastrarClick
+  end
+  object EdNome: TEdit
+    Left = 32
+    Top = 40
+    Width = 161
+    Height = 21
+    TabOrder = 1
+    Text = 'Nome'
+  end
+  object EdCargo: TEdit
+    Left = 32
+    Top = 88
+    Width = 161
+    Height = 21
+    TabOrder = 2
+    Text = 'Cargo'
+  end
+  object EdCPF: TEdit
+    Left = 32
+    Top = 144
+    Width = 161
+    Height = 21
+    TabOrder = 3
+    Text = 'CPF'
+  end
+  object EdHoraExtra: TEdit
+    Left = 32
+    Top = 200
+    Width = 161
+    Height = 21
+    TabOrder = 4
+    Text = 'HoraExtra'
+  end
+  object BtnVisualizar: TButton
+    Left = 328
+    Top = 152
+    Width = 169
+    Height = 41
+    Caption = 'Visualizar Cadastros'
+    TabOrder = 5
+    OnClick = BtnVisualizarClick
+  end
+  object EdCodigo: TEdit
+    Left = 344
+    Top = 40
+    Width = 121
+    Height = 21
+    TabOrder = 6
+    Text = 'Codigo Desejado'
+  end
+end

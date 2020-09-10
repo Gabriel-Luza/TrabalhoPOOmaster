@@ -1,0 +1,89 @@
+unit uGestor;
+
+interface
+
+uses System.SysUtils;
+
+type
+
+  TGestor = class
+
+Private
+
+  FNome: string;
+  FCPF: string;
+  FSalario: string;
+  FHoraExtra: string;
+
+  function getNome: string;
+  procedure setNome(Value: string);
+
+  function getCPF: string;
+  procedure setCPF(Value: string);
+
+  function getSalario: string;
+  procedure setSalario(Value: string);
+
+  function getHoraExtra: string;
+  procedure setHoraExtra(Value: string);
+
+Public
+
+  property nome: string read getNome write setNome;
+  property CPF: string read getCPF write setCPF;
+  property salario: string read getSalario write setSalario;
+  property hora: string read getHoraExtra write setHoraExtra;
+
+  function CalculaSala: Integer;
+
+end;
+
+implementation
+
+function TGestor.getNome: string;
+begin
+  Result := Fnome;
+end;
+
+procedure TGestor.setNome(Value: string);
+begin
+  Fnome := Value;
+end;
+
+function TGestor.getCPF: string;
+begin
+  Result := FCPF;
+end;
+
+procedure TGestor.setCPF(Value: string);
+begin
+  FCPF := Value;
+end;
+
+function TGestor.getSalario: string;
+begin
+  Result := FSalario;
+end;
+
+procedure TGestor.setSalario(Value: string);
+begin
+  FSalario := Value;
+end;
+
+function TGestor.getHoraExtra: string;
+begin
+  Result := FHoraExtra;
+end;
+
+procedure TGestor.setHoraExtra(Value: string);
+begin
+  FHoraExtra := Value;
+end;
+
+
+function TGestor.CalculaSala: Integer;
+begin
+  Result := StrToInt(salario) + StrToInt(hora) + (15/100 * StrToFloat(salario));
+end;
+
+end.

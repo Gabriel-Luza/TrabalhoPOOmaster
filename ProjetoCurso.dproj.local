@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/08 14:10:15.000.478,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:10:49.000.349,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\uFrmPrincipal.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:10:49.000.349,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\uFrmPrincipal.dfm=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/09/08 14:11:02.000.249,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:11:26.000.237,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\uVendedor.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:11:33.000.543,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 14:11:45.000.696,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\uGestor.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/08 16:54:30.000.813,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\ProjetoCurso.dproj=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/09/09 15:41:43.000.795,=C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\Unit2.pas</Transaction>
+    <Transaction>2020/09/09 15:41:52.000.527,=C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\Unit1.pas</Transaction>
+    <Transaction>2020/09/09 15:42:01.000.056,C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\Unit1.pas=C:\Users\Usuario\Desktop\CURSOURSO\Trabalho POO\uPessoa.pas</Transaction>
+  </Transactions>
+</BorlandProject>

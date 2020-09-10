@@ -1,0 +1,75 @@
+unit uVendedor;
+
+interface
+
+uses System.SysUtils;
+
+type
+
+  TVendedor = class
+
+Private
+
+  FNome: string;
+  FCPF: string;
+  FSalario: string;
+
+  function getNome: string;
+  procedure setNome(Value: string);
+
+  function getCPF: string;
+  procedure setCPF(Value: string);
+
+  function getSalario: string;
+  procedure setSalario(Value: string);
+
+Public
+
+  property nome: string read getNome write setNome;
+  property CPF: string read getCPF write setCPF;
+  property salario: string read getSalario write setSalario;
+  property hora: string read getHoraExtra write setHoraExtra;
+
+  function CalculaSal: Double;
+
+end;
+
+implementation
+
+function TVendedor.getNome: string;
+begin
+  Result := Fnome;
+end;
+
+procedure TVendedor.setNome(Value: string);
+begin
+  Fnome := Value;
+end;
+
+function TVendedor.getCPF: string;
+begin
+  Result := FCPF;
+end;
+
+procedure TVendedor.setCPF(Value: string);
+begin
+  FCPF := Value;
+end;
+
+function TVendedor.getSalario: string;
+begin
+  Result := FSalario;
+end;
+
+procedure TVendedor.setSalario(Value: string);
+begin
+  FSalario := Value;
+end;
+
+
+function TVendedor.CalculaSal: Double;
+begin
+  Result := StrToFloat(salario) + (15/100 * StrToFloat(salario));
+end;
+
+end.

@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 302
+  ClientWidth = 395
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 224
+    Top = 21
+    Width = 134
+    Height = 13
+    Caption = 'Digite o c'#243'digo de cadastro:'
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 21
+    Width = 80
+    Height = 13
+    Caption = 'Digite seu nome:'
+  end
+  object Label3: TLabel
+    Left = 32
+    Top = 77
+    Width = 92
+    Height = 13
+    Caption = 'Informe seu cargo:'
+  end
+  object Label4: TLabel
+    Left = 32
+    Top = 135
+    Width = 84
+    Height = 13
+    Caption = 'Informe seu CPF:'
+  end
+  object Label5: TLabel
+    Left = 32
+    Top = 192
+    Width = 145
+    Height = 13
+    Caption = 'Informe as suas horas extras:'
+  end
+  object BtnCadastrar: TButton
+    Left = 48
+    Top = 248
+    Width = 129
+    Height = 41
+    Caption = 'Cadastrar'
+    TabOrder = 0
+    OnClick = BtnCadastrarClick
+  end
+  object EdtNome: TEdit
+    Left = 32
+    Top = 40
+    Width = 161
+    Height = 21
+    TabOrder = 1
+    TextHint = 'Nome e sobrenome'
+  end
+  object EdtCargo: TEdit
+    Left = 32
+    Top = 96
+    Width = 161
+    Height = 21
+    TabOrder = 2
+    TextHint = 'Cargo'
+  end
+  object EdtCPF: TEdit
+    Left = 32
+    Top = 154
+    Width = 161
+    Height = 21
+    TabOrder = 3
+    TextHint = '000.000.000-00'
+  end
+  object EdtHoraExtra: TEdit
+    Left = 32
+    Top = 211
+    Width = 161
+    Height = 21
+    TabOrder = 4
+    TextHint = 'Horas Extras'
+  end
+  object BtnVisualizar: TButton
+    Left = 237
+    Top = 77
+    Width = 132
+    Height = 39
+    Caption = 'Visualizar Cadastros'
+    TabOrder = 5
+    OnClick = BtnVisualizarClick
+  end
+  object EdtCodigo: TEdit
+    Left = 224
+    Top = 40
+    Width = 161
+    Height = 21
+    TabOrder = 6
+    TextHint = 'C'#243'digo de cadastro'
+  end
+end
